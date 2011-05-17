@@ -28,3 +28,7 @@ $app['menu_enabled'] = FALSE;
 /////////////////////////////////////////////////////////////////////////////
 
 $app['core_only'] = TRUE;
+
+$app['core_requires'] = array(
+    'system-mode-driver',
+);
