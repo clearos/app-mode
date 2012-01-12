@@ -124,6 +124,8 @@ class Mode_Engine extends Engine
     /**
      * Returns mode.
      *
+     * Returns NULL if mode is unset.
+     *
      * @return string mode
      * @throws Engine_Exception
      */
@@ -135,7 +137,10 @@ class Mode_Engine extends Engine
         if (! $this->is_loaded)
             $this->_load_config();
 
-        return $this->config['mode'];
+        if (empty($this->config['mode']))
+            return NULL;
+        else
+            return $this->config['mode'];
     }
 
     /**
