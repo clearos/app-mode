@@ -155,7 +155,7 @@ class Mode_Engine extends Engine
 
         $mode = $this->get_mode();
 
-        if (($mode === self::MODE_SIMPLE_SLAVE) || ($mode === self::MODE_SLAVE))
+        if ($mode === self::MODE_SLAVE)
             return TRUE;
         else
             return FALSE;
