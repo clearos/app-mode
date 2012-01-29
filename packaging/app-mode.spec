@@ -4,7 +4,7 @@ Group: ClearOS/Libraries
 Epoch: 1
 Version: 1.0.1
 Release: 1%{dist}
-Summary: Translation missing (mode_base_system_mode) - APIs and install
+Summary: Mode Manager - APIs and install
 License: LGPLv3
 Packager: ClearFoundation
 Vendor: ClearFoundation
@@ -14,7 +14,7 @@ Requires: app-base-core
 Requires: system-mode-driver
 
 %description
-Translation missing (mode_app_long_description)
+The Mode app provides a low-level driver system for master/slave mode.
 
 This package provides the core API and libraries.
 
