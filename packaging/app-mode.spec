@@ -1,13 +1,14 @@
 
 Name: app-mode
 Epoch: 1
-Version: 1.0.2
+Version: 1.0.4
 Release: 1%{dist}
 Summary: Mode Manager - APIs and install
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-mode-%{version}.tar.gz
 Buildarch: noarch
+
 %description
 The Mode app provides a low-level driver system for master/slave mode.
 
