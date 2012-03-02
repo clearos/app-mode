@@ -35,6 +35,7 @@ $app['core_requires'] = array(
 $app['core_file_manifest'] = array(
     'mode.conf' => array (
         'target' => '/var/clearos/mode',
+        'mode' => '0600',
         'config' => TRUE,
         'config_params' => 'noreplace',
     ),
