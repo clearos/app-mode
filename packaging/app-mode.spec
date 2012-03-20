@@ -1,7 +1,7 @@
 
 Name: app-mode
 Epoch: 1
-Version: 1.0.4
+Version: 1.0.9
 Release: 1%{dist}
 Summary: Mode Manager - APIs and install
 License: LGPLv3
