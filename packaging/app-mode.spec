@@ -1,7 +1,7 @@
 
 Name: app-mode
 Epoch: 1
-Version: 1.0.9
+Version: 1.0.10
 Release: 1%{dist}
 Summary: Mode Manager - APIs and install
 License: LGPLv3
@@ -16,6 +16,7 @@ The Mode app provides a low-level driver system for master/slave mode.
 Summary: Mode Manager - APIs and install
 Requires: app-base-core
 Requires: system-mode-driver
+Requires: app-simple-mode-core
 
 %description core
 The Mode app provides a low-level driver system for master/slave mode.

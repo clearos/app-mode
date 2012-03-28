@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'mode';
-$app['version'] = '1.0.9';
+$app['version'] = '1.0.10';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -28,8 +28,10 @@ $app['menu_enabled'] = FALSE;
 
 $app['core_only'] = TRUE;
 
+// Always pull in the simple mode driver for now.
 $app['core_requires'] = array(
     'system-mode-driver',
+    'app-simple-mode-core',
 );
 
 $app['core_file_manifest'] = array(
