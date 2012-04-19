@@ -34,15 +34,6 @@ $app['core_requires'] = array(
     'app-simple-mode-core',
 );
 
-$app['core_file_manifest'] = array(
-    'mode.conf' => array (
-        'target' => '/var/clearos/mode',
-        'mode' => '0600',
-        'config' => TRUE,
-        'config_params' => 'noreplace',
-    ),
-);
-
 $app['core_directory_manifest'] = array(
    '/var/clearos/mode' => array(),
 );

@@ -32,7 +32,6 @@ mkdir -p -m 755 %{buildroot}/usr/clearos/apps/mode
 cp -r * %{buildroot}/usr/clearos/apps/mode/
 
 install -d -m 0755 %{buildroot}/var/clearos/mode
-install -D -m 0600 packaging/mode.conf %{buildroot}/var/clearos/mode
 
 %post core
 logger -p local6.notice -t installer 'app-mode-core - installing'
@@ -62,4 +61,3 @@ exit 0
 /usr/clearos/apps/mode/deploy
 /usr/clearos/apps/mode/language
 /usr/clearos/apps/mode/libraries
-%config(noreplace) /var/clearos/mode
