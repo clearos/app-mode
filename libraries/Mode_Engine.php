@@ -162,6 +162,19 @@ class Mode_Engine extends Engine
     }
 
     /**
+     * Returns status of master.
+     *
+     * @return boolean TRUE if master is available
+     */
+
+    public function is_master_available()
+    {
+        clearos_profile(__METHOD__, __LINE__);
+
+        return TRUE;
+    }
+
+    /**
      * Sets mode.
      *
      * @param string $mode    mode
