@@ -184,7 +184,7 @@ class Mode_Engine extends Engine
      * @throws Engine_Exception
      */
 
-    public function set_mode($mode, $options)
+    public function set_mode($mode, $options = NULL)
     {
         clearos_profile(__METHOD__, __LINE__);
 
