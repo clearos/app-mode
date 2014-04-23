@@ -15,8 +15,10 @@ The Mode app provides a low-level driver system for master/slave mode.
 %package core
 Summary: Mode Manager - Core
 Requires: app-base-core
-Requires: system-mode-driver
 Requires: app-simple-mode-core
+Requires: app-events-core
+Requires: csplugin-filewatch
+Requires: system-mode-driver
 
 %description core
 The Mode app provides a low-level driver system for master/slave mode.
@@ -31,7 +33,9 @@ This package provides the core API and libraries.
 mkdir -p -m 755 %{buildroot}/usr/clearos/apps/mode
 cp -r * %{buildroot}/usr/clearos/apps/mode/
 
+install -d -m 0755 %{buildroot}/var/clearos/events/mode
 install -d -m 0755 %{buildroot}/var/clearos/mode
+install -D -m 0644 packaging/filewatch-mode-event.conf %{buildroot}/etc/clearsync.d/filewatch-mode-event.conf
 
 %post core
 logger -p local6.notice -t installer 'app-mode-core - installing'
@@ -55,9 +59,10 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/mode/packaging
-%exclude /usr/clearos/apps/mode/tests
 %dir /usr/clearos/apps/mode
+%dir /var/clearos/events/mode
 %dir /var/clearos/mode
 /usr/clearos/apps/mode/deploy
 /usr/clearos/apps/mode/language
 /usr/clearos/apps/mode/libraries
+/etc/clearsync.d/filewatch-mode-event.conf
