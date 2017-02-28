@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
-$lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_app_description'] = 'Апликација режим обезбеђује систем возача ниског нивоа за моду мастер / славе.';
+$lang['mode_app_name'] = 'моде директор';
+$lang['mode_master'] = 'мајстор';
+$lang['mode_mode_is_invalid'] = 'Режим је неважећи.';
+$lang['mode_mode'] = 'начин';
+$lang['mode_slave'] = 'Роб';
+$lang['mode_standalone'] = 'Самостална';
+$lang['mode_system_mode_driver_not_set'] = 'возач режим систем није постављен.';
