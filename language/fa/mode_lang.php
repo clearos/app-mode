@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
-$lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_app_description'] = 'برنامه حالت فراهم می کند یک سیستم راننده در سطح پایین برای کارشناسی ارشد / حالت برده.';
+$lang['mode_app_name'] = 'مدیر حالت';
+$lang['mode_master'] = 'استاد';
+$lang['mode_mode_is_invalid'] = 'حالت نامعتبر است.';
+$lang['mode_mode'] = 'حالت';
+$lang['mode_slave'] = 'برده';
+$lang['mode_standalone'] = 'رایج';
+$lang['mode_system_mode_driver_not_set'] = 'راننده حالت سیستم تنظیم نشده است.';
