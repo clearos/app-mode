@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
+$lang['mode_app_description'] = 'Додаток режим забезпечує систему драйвера низького рівня в режимі для провідний / ведений.';
+$lang['mode_app_name'] = 'Менеджер Режим';
+$lang['mode_master'] = 'майстер';
+$lang['mode_mode_is_invalid'] = 'Режим є недійсним.';
+$lang['mode_mode'] = 'режим';
+$lang['mode_slave'] = 'ведена';
 $lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_system_mode_driver_not_set'] = 'драйвер режиму системи не встановлено.';
