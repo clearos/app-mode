@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
-$lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_app_description'] = 'මෙම ප්රකාරය යෙදුම ස්වාමි / වහල් ක්රමය සඳහා පහළ මට්ටමේ රියදුරු පද්ධතිය සපයයි.';
+$lang['mode_app_name'] = 'ප්රකාරය කළමනාකරු';
+$lang['mode_master'] = 'මාස්ටර්';
+$lang['mode_mode_is_invalid'] = 'ප්රකාරය වලංගු නැත.';
+$lang['mode_mode'] = 'මාදිලිය';
+$lang['mode_slave'] = 'කොම්පඤ්ඤ';
+$lang['mode_standalone'] = 'නවීන';
+$lang['mode_system_mode_driver_not_set'] = 'පද්ධතිය මාදිලිය රියදුරු පිහිටුවා නැත.';

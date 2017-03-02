@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
-$lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_app_description'] = 'Aplikacja zapewnia system Tryb niskiego poziomu sterownika w trybie master / slave.';
+$lang['mode_app_name'] = 'Manager mode';
+$lang['mode_master'] = 'Mistrz';
+$lang['mode_mode_is_invalid'] = 'Tryb jest nieprawidłowy.';
+$lang['mode_mode'] = 'Tryb';
+$lang['mode_slave'] = 'Niewolnik';
+$lang['mode_standalone'] = 'Samodzielny';
+$lang['mode_system_mode_driver_not_set'] = 'Sterownik trybu system nie jest ustawiony.';

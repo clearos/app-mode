@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
+$lang['mode_app_description'] = 'Te taupānga Aratau whakarato te pūnaha atekōkiri taumata-iti mō te aratau ariki / pononga.';
+$lang['mode_app_name'] = 'Kaiwhakahaere aratau';
+$lang['mode_master'] = 'Kaiwhakaako';
+$lang['mode_mode_is_invalid'] = 'He muhu Aratau.';
+$lang['mode_mode'] = 'aratau';
+$lang['mode_slave'] = 'pononga';
 $lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_system_mode_driver_not_set'] = 'e kore te atekōkiri aratau pūnaha whakaturia.';

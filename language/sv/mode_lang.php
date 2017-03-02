@@ -1,10 +1,10 @@
 <?php
 
-$lang['mode_app_description'] = 'The Mode app provides a low-level driver system for master/slave mode.';
-$lang['mode_app_name'] = 'Mode Manager';
-$lang['mode_master'] = 'Master';
-$lang['mode_mode_is_invalid'] = 'Mode is invalid.';
-$lang['mode_mode'] = 'Mode';
-$lang['mode_slave'] = 'Slave';
-$lang['mode_standalone'] = 'Standalone';
-$lang['mode_system_mode_driver_not_set'] = 'System mode driver is not set.';
+$lang['mode_app_description'] = 'Läges app ger en förare systemet låg nivå för master / slave-läge.';
+$lang['mode_app_name'] = 'läge manager';
+$lang['mode_master'] = 'Bemästra';
+$lang['mode_mode_is_invalid'] = 'Läget är ogiltig.';
+$lang['mode_mode'] = 'Läge';
+$lang['mode_slave'] = 'Slav';
+$lang['mode_standalone'] = 'Fristående';
+$lang['mode_system_mode_driver_not_set'] = 'Systemläge drivrutin är inte satt.';
